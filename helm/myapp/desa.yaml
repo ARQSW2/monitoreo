@@ -12,7 +12,8 @@ imagePullSecrets: []
 nameOverride: ''
 fullnameOverride: ''
 
-podAnnotations: {}
+podAnnotations:
+  fluentbit.io/parser: nginx
 
 service:
   type: ClusterIP
